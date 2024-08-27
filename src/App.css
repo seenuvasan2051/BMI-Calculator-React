@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ccdbe0;
+}
+
+.bmi_calculator {
+  width: 800px;
+  height: 450px;
+  padding: 20px;
+  background-color: #ffffff;
+  display: flex;
+  border-radius: 5%;
+
+  box-shadow: 10px rgba(red, green, blue, alpha);
+}
+
+.box {
+  width: 350px;
+  background-image: url("./assets/workout.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.data {
+  flex: 1;
+  padding: 15px;
+}
+
+h1 {
+  font-size: 1.6rem;
+  font-weight: bolder;
+  padding: 0 10px 20px 10px;
+  color: rgb(17, 116, 83);
+  text-align: center;
+}
+
+.input-container {
+  margin-bottom: 15px;
+}
+
+input {
+  margin-top: 5px;
+  height: 40px;
+  width: 100%;
+}
+
+label {
+  display: block;
+  color: #666866
+}
+
+button {
+  margin-bottom: 10px;
+  padding: 5px;
+  font-size: 1rem;
+  background-color: aquamarine;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.results {
+  margin-bottom: 10px;
+  font-size: 1rem;
+  border: 1px solid rgb(71, 71, 71);
+}
+
+p {
+  margin: 10px;
+}
+
+.results p:first-child {
+  color: rgb(57, 156, 37);
+  font-weight: bold;
+}
+
+.error {
+  color: red;
+  font-size: 0.7rem;
+}
